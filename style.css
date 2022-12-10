@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 173, 254);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 460px;
+    height: 560px;
+    background-color: #fff;
+    border-radius: 75px 0 75px 0;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h1 {
+    color: #00adfe;
+    margin-bottom: 80px;
+}
+
+.username-div , .password-div {
+    width: 75%;
+    margin-bottom: 45px;
+    border-bottom: 2px solid silver;
+    padding: 5px;
+}
+
+.username-div input, .password-div input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: rgb(176, 176, 176);
+}
+
+.checkbox-div {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    margin: -13px 0 45px 0;
+    color: #848484;
+
+}
+
+.checkbox-div input {
+   margin-right: 5px;
+}
+
+button {
+    width: 75%;
+    padding: 15px;
+    border: none;
+    background-color: #00adfe;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #009fe9;
+}
+
+.account-div label {
+    color: #585858;
+}
+
+.account-div a {
+    text-decoration: none;
+    color: #009fe9;
+    margin-left: 5px;
+}
